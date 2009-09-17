@@ -94,6 +94,7 @@ PPCODE:
         if (SvCUR(ret) > rlen)
             Perl_croak(aTHX_ "internal error, possible memory corruption");
 
+	EXTEND(SP, 1);
         ST(0) = ret;
         XSRETURN(1);
         
