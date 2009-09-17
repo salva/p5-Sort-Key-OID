@@ -4,7 +4,7 @@ use strict;
 use warnings;
 
 BEGIN {
-    our $VERSION = '0.04';
+    our $VERSION = '0.05';
 
     require XSLoader;
     XSLoader::load('Sort::Key::OID', $VERSION);
@@ -113,7 +113,7 @@ L<Sort::Key>, L<Sort::Key::Maker>
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2007 by Salvador FandiE<ntilde>o
+Copyright E<copy> 2007-2009 by Salvador FandiE<ntilde>o
 E<lt>sfandino@yahoo.comE<gt>.
 
 This library is free software; you can redistribute it and/or modify

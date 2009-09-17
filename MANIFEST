@@ -8,4 +8,3 @@ ppport.h
 README
 t/pods.t
 t/Sort-Key-OID.t
-META.yml                                 Module meta-data (added by MakeMaker)
